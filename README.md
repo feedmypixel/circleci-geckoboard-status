@@ -1,5 +1,7 @@
 # CircleCi geckoboard text widget
 
+[![Build Status](https://travis-ci.org/feedmypixel/circleci-geckoboard-status.svg?branch=master)](https://travis-ci.org/feedmypixel/circleci-geckoboard-status)
+
 An app to transform payload data from CircleCi and then push the relevant information to a geckoboard 
 text widget. The geckoboard text widget displays the status of the CircleCi job for the specified repository and branch. 
 It also shows the last person who committed to this repository and branch.
