@@ -1,0 +1,33 @@
+{
+  "name":"CircleCi geckoboard status",
+  "description": "An app to transform payload data from CircleCi and then push to a geckoboard text widget to display CI job status",
+  "keywords": [
+    "CircleCi",
+    "geckoboard",
+    "Job Status"
+  ],
+  "repository": "https://github.com/feedmypixel/circleci-geckoboard-status",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env":{
+    "GECKO_BOARD_API_KEY": {
+      "description": "geckoboard api key",
+      "required": true
+    },
+    "GECKO_BOARD_WIDGET_URL": {
+      "description": "geckoboard text widgets url",
+      "required": true
+    },
+    "REPO_NAME": {
+      "description": "repository name the circle ci job runs on",
+      "required": true
+    },
+    "BRANCH": {
+      "description": "branch name you wish to report job status for on geckoboard",
+      "required": true
+    }
+  }
+}
