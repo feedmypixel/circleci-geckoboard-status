@@ -1,0 +1,35 @@
+.circle-ci-widget {
+  color: #fff;
+}
+
+.circle-ci-widget--failed {
+  .circle-ci-widget__branch-name {
+    color: #e3524f;
+  }
+}
+
+.circle-ci-widget--success {
+  .circle-ci-widget__branch-name {
+    color: #90c564;
+  }
+}
+
+.circle-ci-widget__upper-content {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.circle-ci-widget__branch-name {
+  font-size: 48px;
+}
+
+.circle-ci-widget__label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.circle-ci-widget__info {
+  font-size: 20px;
+}
+
+

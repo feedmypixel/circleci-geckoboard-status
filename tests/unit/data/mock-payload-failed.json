@@ -1,0 +1,168 @@
+{
+  "payload": {
+    "compare": "mock-compare-url",
+    "previous_successful_build": {
+      "build_num": 13986,
+      "status": "success",
+      "build_time_millis": 28035
+    },
+    "build_parameters": {
+      "CIRCLE_JOB": "user_acceptance_tests"
+    },
+    "oss": true,
+    "all_commit_details_truncated": false,
+    "committer_date": "2017-12-08T11:27:55Z",
+    "steps": [
+      {
+        "name": "Spin up Environment",
+        "actions": [
+          {
+            "truncated": false,
+            "index": 0,
+            "parallel": true,
+            "failed": null,
+            "infrastructure_fail": null,
+            "name": "Spin up Environment",
+            "bash_command": null,
+            "status": "success",
+            "timedout": null,
+            "continue": null,
+            "end_time": "2017-12-01T14:50:16.669Z",
+            "type": "test",
+            "allocation_id": "5a216c23a9xccssdFDFdfg21ef-0-build/620A57CE",
+            "output_url": "",
+            "start_time": "2017-12-01T14:50:15.338Z",
+            "background": false,
+            "exit_code": null,
+            "insignificant": false,
+            "canceled": null,
+            "step": 0,
+            "run_time_millis": 1331,
+            "has_output": true
+          }
+        ]
+      }
+    ],
+    "body": "",
+    "usage_queued_at": "2017-12-08T11:29:41.954Z",
+    "context_ids": [],
+    "fail_reason": null,
+    "retry_of": null,
+    "reponame": "mock-repo",
+    "ssh_users": [],
+    "build_url": "https://circleci.com/gh/13760",
+    "parallel": 6,
+    "failed": true,
+    "branch": "mock-branch-name",
+    "username": "mock-github-user",
+    "author_date": "2017-12-08T11:27:55Z",
+    "why": "github",
+    "user": {
+      "is_user": true,
+      "login": "jasonExAmPlE",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2305016?v=4",
+      "name": "Jason Example",
+      "vcs_type": "github",
+      "id": 2305016
+    },
+    "vcs_revision": "bc1e94be3f68e261dcb90e0f0613e66eba980b6d",
+    "workflows": {
+      "job_name": "user_acceptance_tests",
+      "job_id": "affcd046-2eh4b-4cc6-a2a8-af444a14d1ad",
+      "workflow_id": "8b578c8gf-848f-4f1d-a55f3-ac0195a99593",
+      "workspace_id": "8b578c8f-848f-4f1d-a553-ach0195a99593",
+      "upstream_job_ids": [
+        "60e0cxc9eb-dd9b-473c-8204-5c59488c268b",
+        "091a22c3fh-e891-4efeh-91f4-82e0bxc1df02a8",
+        "50cdbc6d-99af-46c41-991f-4bfc16309d86"
+      ],
+      "upstream_concurrency_map": {
+        "50cdbc6d_99af_4641_991f_4bfc16309d86": [
+          "091a22c3-e891-4efe-91f4-82e0b1dhf02a8"
+        ],
+        "091a22c3_e891_4efe_91f4_82e0b1df02a8": [
+          "50cdbc6d-99af-4641-991f-4bfc16309d86"
+        ]
+      },
+      "workflow_name": "example-workflow"
+    },
+    "owners": [
+      "jasonExAmPlE"
+    ],
+    "vcs_tag": null,
+    "pull_requests": [
+      {
+        "head_sha": "78622131cf23bc415ca2b204d0c5ae020fe2cc7d",
+        "url": "https://github.com/uktrade/mock-repo-name/pull/1056"
+      }
+    ],
+    "build_num": 13989,
+    "infrastructure_fail": false,
+    "committer_email": "jason.example@mock-email.com",
+    "has_artifacts": true,
+    "previous": {
+      "build_num": 13986,
+      "status": "success",
+      "build_time_millis": 28035
+    },
+    "status": "failed",
+    "committer_name": "Jason Example",
+    "retries": null,
+    "subject": "fixup! Tidy up use of nock to avoid leaky global http mocks, Just mock http on tests where it is required, Introduce this.nockScope, Introduce \"expect(this.nockScope.isDone()).to.be.true\" assertions, Refactor a number of tests",
+    "vcs_type": "github",
+    "timedout": false,
+    "dont_build": null,
+    "lifecycle": "finished",
+    "no_dependency_cache": false,
+    "stop_time": "2017-12-08T11:43:51.147Z",
+    "ssh_disabled": true,
+    "build_time_millis": 801926,
+    "picard": {
+      "build_agent": {
+        "image": null,
+        "properties": {
+          "build_agent": "0.0.4580-9c6473a",
+          "executor": "docker"
+        }
+      },
+      "resource_class": {
+        "cpu": 2,
+        "ram": 4096,
+        "class": "medium"
+      }
+    },
+    "circle_yml": {
+      "string": ""
+    },
+    "messages": [],
+    "is_first_green_build": false,
+    "job_name": null,
+    "start_time": "2017-12-08T11:30:29.221Z",
+    "canceler": null,
+    "all_commit_details": [
+      {
+        "committer_date": "2017-12-08T11:27:55Z",
+        "body": "Commit message body",
+        "branch": "mock-branch-name",
+        "author_date": "2017-12-08T11:27:55Z",
+        "committer_email": "jason.example@mock-email.com",
+        "commit": "bc1e94be3f68e261dcb90e0f0613e66eba980b6d",
+        "committer_login": "jasonExAmPlE",
+        "committer_name": "Jason Example",
+        "subject": "Mock subject for PR",
+        "commit_url": "https://github.com/uktrade/mock-repo-name/commit/bc1e94be3f68e261dcb90e0f0613e66eba980b6d",
+        "author_login": "jasonExAmPlE",
+        "author_name": "Jason Example",
+        "author_email": "jason.example@mock-email.com"
+      }
+    ],
+    "platform": "2.0",
+    "outcome": "failed",
+    "vcs_url": "https://github.com/uktrade/mock-repo-name",
+    "author_name": "Jason Example",
+    "node": null,
+    "queued_at": "2017-12-08T11:30:27.145Z",
+    "canceled": false,
+    "author_email": "jason.example@mock-email.com"
+  }
+}
