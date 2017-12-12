@@ -14,7 +14,7 @@ const buildWidgetData = (data) => {
                  <div class="circle-ci-widget__upper-content">
                    <h1 class="circle-ci-widget__branch-name">${branch}</h1>
                  </div>
-                 <div class="circle-ci-widget__label">Merged by</div>
+                 <div class="circle-ci-widget__label">Merged</div>
                  <div class="circle-ci-widget__info">${author}</div>
                </div>`
       }

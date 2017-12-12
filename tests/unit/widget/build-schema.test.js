@@ -43,7 +43,7 @@ describe('#buildWidgetText', () => {
 
     test('should contain merger label', () => {
       expect(this.widgetData.item[0].text).toEqual(
-        expect.stringContaining('Merged by')
+        expect.stringContaining('Merged')
       )
     })
 
